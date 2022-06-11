@@ -115,8 +115,7 @@ const jediSchema = {
     },
     gender: {
         isString: {
-            errorMessage: "gender is wrong",
-            options: ['male', 'female', 'unknown']
+            errorMessage: "gender is wrong"
         },
         in: ['body']
     }
